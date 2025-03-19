@@ -13,63 +13,84 @@
     <div id="particles-js"></div>
     
     <nav class="nav-container">
-        
+        <div class="logo">PORTFOLIO</div>
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+            <i class="fas fa-bars"></i>
+        </button>
         <div class="nav-links">
-          
             <a href="#home" class="nav-link">Home</a>
             <a href="#about" class="nav-link">About</a>
-            <a href="#skills" class="nav-link">Skills</a>
             <a href="#projects" class="nav-link">Projects</a>
+            <a href="#skills" class="nav-link">Skills</a>
             <a href="#resume" class="nav-link">Resume</a>
             <a href="#contact" class="nav-link">Contact</a>
         </div>
     </nav>
-        <!-- Home Section  -->
+
     <section id="home" class="hero">
-        <h1 class="typing-text" data-aos="fade-up">Welcome To My Portfolio</h1>
-        <div class="hero-card" data-aos="fade-up" data-aos-delay="100">
-            <h2 class="typing-name">Aryan Koul</h2>
-            <p class="typing-role">Web Developer, UI/UX Designer & STEAM Trainer</p>
+        <div class="hero-content">
+            <p class="hello-text">Hello, I am</p>
+            <h1 class="name-text">Aryan Koul</h1>
+            <h2 class="role-text">Web Developer, UI/UX Designer,<br>STEAM Educator</h2>
+            <p class="bio-text">A creative developer passionate about building futuristic and immersive web experiences that combine cutting-edge technology with stunning design.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                <a href="assets/Aryan_new_resume_removed.pdf" download class="btn btn-secondary">
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/Firefly 20250316104723.png" alt="Aryan Koul" class="profile-image">
         </div>
     </section>
 
     <section id="about">
         <div class="container">
-            <div class="profile-section">
-                <div class="profile-image-container" data-aos="fade-right">
-                    <img src="images/Firefly 20250316104723.png" alt="Aryan Koul" class="profile-image">
-                </div>
-                <div class="profile-content" data-aos="fade-left">
-                    <h2 class="section-title">About Me</h2>
-                    <p>Electronics & Communication Engineering graduate currently working as a STEAM Trainer, transitioning into IT software development. I utilize a solid foundation in programming, problem-solving, and engineering design to craft innovative solutions.</p>
+            <div class="about-grid">
+                <div class="about-content">
+                    <p class="about-text">
+                        Coming from an electronics background, I have a deep interest in exploring and working on innovative electronics projects, blending my knowledge of hardware and software to create impactful solutions. Additionally, I'm a passionate frontend developer with expertise in building modern web applications, crafting seamless digital experiences that are visually appealing and functionally robust.
+                    </p>
                     
-                    <div class="info-grid">
-                        <div class="info-item">
-                            <strong>Location</strong>
-                            <span>Jammu, India</span>
+                    <p class="about-text">
+                        My journey in technology began when I was fascinated by how websites worked. This curiosity led me to dive deep into the world of programming, where I've been constantly expanding my knowledge and skills.
+                    </p>
+                    
+                    <p class="about-text">
+                        I believe in creating solutions that not only solve problems but also provide an exceptional user experience. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or expanding my knowledge through continuous learning.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
                         </div>
-                        <div class="info-item">
-                            <strong>Email</strong>
-                            <span>aryankoul176@gmail.com</span>
-                        </div>
-                        <div class="info-item">
-                            <strong>Role</strong>
-                            <span>Sr. STEAM Trainer</span>
-                        </div>
-                        <div class="info-item">
-                            <strong>Experience</strong>
-                            <span>1+ Years</span>
+                        <div class="service-content">
+                            <h3>Web Development</h3>
+                            <p>Building responsive and powerful web applications with the latest technologies.</p>
                         </div>
                     </div>
 
-                    <div class="current-work">
-                        <h3>What I'm doing</h3>
-                        <ul>
-                            <li>🔭 Working at Aviotron Aerospace as STEAM Trainer</li>
-                            <li>🌱 Expanding knowledge in Web Technologies and electronics</li>
-                            <li>👯 Open to collaborate on innovative projects</li>
-                            <li>💬 Available for Web Development opportunities</li>
-                        </ul>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Electronics Projects</h3>
+                            <p>Creating innovative electronic solutions and IoT devices for real-world applications.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="far fa-lightbulb"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Creative Solutions</h3>
+                            <p>Creating innovative solutions to complex problems with creative thinking.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -80,116 +101,92 @@
         <div class="container">
             <h2 class="section-title" data-aos="fade-up">Skills & Expertise</h2>
             <div class="skills-grid">
-                <div class="skill-item" data-aos="fade-up">
-                    <div class="skill-header">
-                        <span class="skill-title">HTML/CSS</span>
-                        <span class="skill-percent">90%</span>
+                <div class="skill-card" data-aos="fade-up">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
                     </div>
-                    <div class="progress-bar">
-                        <div class="progress-fill" style="--width: 90%"></div>
-                    </div>
+                    <h3>Python</h3>
+                    <p>Creating responsive, interactive, and visually stunning applications with Python frameworks.</p>
                 </div>
 
-                <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
-                    <div class="skill-header">
-                        <span class="skill-title">JavaScript</span>
-                        <span class="skill-percent">85%</span>
+                <div class="skill-card" data-aos="fade-up">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
                     </div>
-                    <div class="progress-bar">
-                        <div class="progress-fill" style="--width: 85%"></div>
-                    </div>
+                    <h3>C/C++</h3>
+                    <p>Developing efficient and high-performance applications with C/C++ programming languages.</p>
                 </div>
 
-                <div class="skill-item" data-aos="fade-up" data-aos-delay="200">
-                    <div class="skill-header">
-                        <span class="skill-title">C/C++</span>
-                        <span class="skill-percent">80%</span>
+                <div class="skill-card" data-aos="fade-up">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
                     </div>
-                    <div class="progress-bar">
-                        <div class="progress-fill" style="--width: 80%"></div>
-                    </div>
+                    <h3>CSS</h3>
+                    <p>Building modern and responsive web designs with advanced CSS techniques.</p>
                 </div>
 
-                <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="skill-header">
-                        <span class="skill-title">Python</span>
-                        <span class="skill-percent">75%</span>
+                <div class="skill-card" data-aos="fade-up">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
                     </div>
-                    <div class="progress-bar">
-                        <div class="progress-fill" style="--width: 75%"></div>
-                    </div>
+                    <h3>HTML</h3>
+                    <p>Crafting semantic and accessible web structures using modern HTML5.</p>
                 </div>
-                <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="skill-header">
-                        <span class="skill-title">Arduino</span>
-                        <span class="skill-percent">70%</span>
+
+                <div class="skill-card" data-aos="fade-up">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
                     </div>
-                    <div class="progress-bar">
-                        <div class="progress-fill" style="--width: 70%"></div>
-                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Developing dynamic and interactive web applications with modern JavaScript.</p>
                 </div>
-                <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="skill-header">
-                        <span class="skill-title">MySQL</span>
-                        <span class="skill-percent">65%</span>
+
+                <div class="skill-card" data-aos="fade-up">
+                    <div class="skill-icon">
+                        <i class="fab fa-linux"></i>
                     </div>
-                    <div class="progress-bar">
-                        <div class="progress-fill" style="--width: 65%"></div>
-                    </div>
+                    <h3>Linux</h3>
+                    <p>Working with Linux systems and command-line tools for development.</p>
                 </div>
-                <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="skill-header">
-                        <span class="skill-title">UI/UX Designing</span>
-                        <span class="skill-percent">80%</span>
+
+                <div class="skill-card" data-aos="fade-up">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
                     </div>
-                    <div class="progress-bar">
-                        <div class="progress-fill" style="--width: 60%"></div>
-                    </div>
+                    <h3>MySQL</h3>
+                    <p>Designing and managing databases for efficient data storage and retrieval.</p>
                 </div>
-                <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="skill-header">
-                        <span class="skill-title">Flying Skills</span>
-                        <span class="skill-percent">70%</span>
+
+                <div class="skill-card" data-aos="fade-up">
+                    <div class="skill-icon">
+                        <i class="fas fa-microchip"></i>
                     </div>
-                    <div class="progress-bar">
-                        <div class="progress-fill" style="--width: 70%"></div>
-                    </div>
+                    <h3>Electronics Engineering</h3>
+                    <p>Expert in Arduino, IoT devices, PCB design, and microcontroller programming.</p>
                 </div>
-                <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="skill-header">
-                        <span class="skill-title">3D Printing </span>
-                        <span class="skill-percent">90%</span>
+
+                <div class="skill-card" data-aos="fade-up">
+                    <div class="skill-icon">
+                        <i class="fas fa-print"></i>
                     </div>
-                    <div class="progress-bar">
-                        <div class="progress-fill" style="--width: 90%"></div>
-                    </div>
+                    <h3>3D Printing</h3>
+                    <p>Designing and prototyping using advanced 3D printing technologies and 3D printing software.</p>
                 </div>
-                <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="skill-header">
-                        <span class="skill-title">3D Designing & Sketchup</span>
-                        <span class="skill-percent">75%</span>
+
+                <div class="skill-card" data-aos="fade-up">
+                    <div class="skill-icon">
+                        <i class="fas fa-cogs"></i>
                     </div>
-                    <div class="progress-bar">
-                        <div class="progress-fill" style="--width: 75%"></div>
-                    </div>
+                    <h3>CNC</h3>
+                    <p>Operating and programming CNC machines for precise manufacturing and prototyping.</p>
                 </div>
-                <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="skill-header">
-                        <span class="skill-title">Computer Numerical Control (CNC)</span>
-                        <span class="skill-percent">80%</span>
+
+                <div class="skill-card" data-aos="fade-up">
+                    <div class="skill-icon">
+                        <i class="fas fa-plane"></i>
                     </div>
-                    <div class="progress-bar">
-                        <div class="progress-fill" style="--width: 80%"></div>
-                    </div>
-                </div>
-                <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="skill-header">
-                        <span class="skill-title">Laser GRBL & LightBurn</span>
-                        <span class="skill-percent">70%</span>
-                    </div>
-                    <div class="progress-bar">
-                        <div class="progress-fill" style="--width: 70%"></div>
-                    </div>
+                    <h3>RC Flying</h3>
+                    <p>Building and flying RC planes with custom electronics including ESC, receiver, transmitter, and battery systems.</p>
                 </div>
             </div>
         </div>
@@ -314,6 +311,20 @@
                                 <i class="fas fa-file-pdf"></i>View Documentation
                             </a>
                         </div>
+                </div>
+
+                <div class="project-card coming-soon" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <i class="fas fa-rocket coming-soon-icon"></i>
+                    </div>
+                    <h3>More Projects Coming Soon</h3>
+                    <p>I'm currently working on several exciting projects in the fields of IoT, robotics, and web development. Stay tuned for updates as I continue to innovate and create impactful solutions.</p>
+                    <div class="tech-stack">
+                        <i class="fas fa-microchip"></i>
+                        <i class="fas fa-code"></i>
+                        <i class="fas fa-robot"></i>
+                        <i class="fas fa-wifi"></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -524,6 +535,26 @@
                 document.querySelector(this.getAttribute('href')).scrollIntoView({
                     behavior: 'smooth'
                 });
+            });
+        });
+
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+        const navLinksItems = document.querySelectorAll('.nav-link');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            mobileMenuBtn.querySelector('i').classList.toggle('fa-bars');
+            mobileMenuBtn.querySelector('i').classList.toggle('fa-times');
+        });
+
+        // Close mobile menu when clicking a link
+        navLinksItems.forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                mobileMenuBtn.querySelector('i').classList.add('fa-bars');
+                mobileMenuBtn.querySelector('i').classList.remove('fa-times');
             });
         });
     </script>
